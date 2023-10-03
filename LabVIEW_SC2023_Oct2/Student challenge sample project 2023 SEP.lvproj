@@ -2239,6 +2239,8 @@ AddOutputFilter chunkFilter
 		<Item Name="subVI_STS_ramp.vi" Type="VI" URL="../subVI_STS_ramp.vi"/>
 		<Item Name="subVI_voltage_to_binary.vi" Type="VI" URL="../subVI_voltage_to_binary.vi"/>
 		<Item Name="subVI_boolean_to_voltage.vi" Type="VI" URL="../subVI_boolean_to_voltage.vi"/>
+		<Item Name="ellipse model easy.vi" Type="VI" URL="../ellipse model easy.vi"/>
+		<Item Name="form ellipse.vi" Type="VI" URL="../form ellipse.vi"/>
 		<Item Name="Untitled Library 1.lvlib" Type="Library" URL="../Untitled Library 1.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -2257,8 +2259,6 @@ AddOutputFilter chunkFilter
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
-			<Item Name="form ellipse.vi" Type="VI" URL="../../../../Research/HQLI/Labview/utilities/form ellipse.vi"/>
-			<Item Name="ellipse model easy.vi" Type="VI" URL="../../../../Research/HQLI/Labview/utilities/ellipse model easy.vi"/>
 			<Item Name="studentchallenge_FPGATarget_FPGA1RADC1WDAC2A_a-3TjVyjm4g.lvbitx" Type="Document" URL="../studentchallenge_FPGATarget_FPGA1RADC1WDAC2A_a-3TjVyjm4g.lvbitx"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
