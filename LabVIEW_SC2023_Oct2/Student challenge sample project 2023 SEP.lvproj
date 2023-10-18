@@ -3,6 +3,7 @@
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
 	<Property Name="NI.Project.Description" Type="Str"></Property>
 	<Property Name="varPersistentID:{890CEBF1-5814-4EE1-840D-8491D08922D2}" Type="Ref">/ASPE-SC-committee/Untitled Library 1.lvlib/Fit parameters</Property>
+	<Property Name="varPersistentID:{DEECE53C-CBF0-45FA-A22A-72A89508D516}" Type="Ref">/ASPE-SC-committee/Untitled Library 1.lvlib/Data to save</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="IOScan.Faults" Type="Str"></Property>
 		<Property Name="IOScan.NetVarPeriod" Type="UInt">100</Property>
@@ -22,6 +23,7 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Project Documentation" Type="Folder"/>
+		<Item Name="PC_savedata.vi" Type="VI" URL="../PC_savedata.vi"/>
 		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
@@ -2241,6 +2243,7 @@ AddOutputFilter chunkFilter
 		<Item Name="subVI_boolean_to_voltage.vi" Type="VI" URL="../subVI_boolean_to_voltage.vi"/>
 		<Item Name="ellipse model easy.vi" Type="VI" URL="../ellipse model easy.vi"/>
 		<Item Name="form ellipse.vi" Type="VI" URL="../form ellipse.vi"/>
+		<Item Name="RT_Xdes_command_sharedvariable_example.vi" Type="VI" URL="../RT_Xdes_command_sharedvariable_example.vi"/>
 		<Item Name="Untitled Library 1.lvlib" Type="Library" URL="../Untitled Library 1.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
